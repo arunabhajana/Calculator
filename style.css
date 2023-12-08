@@ -1,0 +1,53 @@
+/* The CSS code provided is styling the layout and appearance of a calculator. */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #282c35;
+    margin: 0;
+    font-family: "Arial", sans-serif;
+  }
+  
+  #calculator {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    max-width: 1000px;
+    gap: 15px;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #393e4d;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
+    padding: 15px;
+  }
+  
+  #display {
+    grid-column: span 4;
+    height: 90px;
+    background-image: linear-gradient(to bottom, #2d323e, #1a1c22);
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding: 10px 15px;
+    font-size: 28px;
+    color: #fff;
+    margin-bottom: 15px;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  }
+  
+  button {
+    height: 50px;
+    width: 50px;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #666c7a; /* Greyish tone */
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  button:hover {
+    background-color: #828895;
+  }
