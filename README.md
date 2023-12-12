@@ -22,6 +22,10 @@ The project consists of three main files:
 
 Feel free to explore the code to understand the implementation details. Any feedback or contributions are welcome!
 
+## Try Yourself
+
+- [Try Yourself](https://calculator-mocha-nu.vercel.app/)
+
 
 
 
