@@ -4,7 +4,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #282c35;
+    background: linear-gradient(135deg, #a1c4fd, #c2e9fb);
     margin: 0;
     font-family: "Arial", sans-serif;
   }
